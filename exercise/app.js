@@ -11,8 +11,11 @@ app.all("/", (request, response)=>{
 })
 
 //This responds to all HTTP verbs
-app.all("/home", (req, res)=>{
-    res.sendFile(__dirname + "/views/home.html")
+app.all("/hobbies", (req, res)=>{
+    res.sendFile(__dirname + "/views/hobbies.html")
+})
+app.all("/hobbies/crochet", (req, res)=>{
+    res.sendFile(__dirname + "/views/crochet.html")
 })
 
 // Build the server here

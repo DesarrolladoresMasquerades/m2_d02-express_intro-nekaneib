@@ -12,7 +12,7 @@ Use the .sendFile() method
    Visiting '/hobbies' should print a list of links to other routes in the server where you will dispaly your favourite hobbies
 
 2. Create a route for each hobby
-   i.e visiting '/hobbies/crochet/' should send teh user an .html page with some info about your passion for crocheting
+   i.e visiting '/hobbies/crochet/' should send the user an .html page with some info about your passion for crocheting
 
 3. If the user visits any other route that does not exist, print:
    "Sorry, page not found...Blame our developer"
